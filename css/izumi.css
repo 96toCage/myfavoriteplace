@@ -1,0 +1,211 @@
+body {
+  width: 90%;
+  margin: 0 auto;
+}
+
+header {
+  width: 90%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(53, 53, 53, 0.5);
+  position: fixed;
+  z-index: 10;
+}
+
+header .header-logo {
+  font-weight: normal;
+  padding-left: 18px;
+  color: #d1d1d1;
+}
+
+header nav {
+  align-items: center;
+}
+
+header ul {
+  display: flex;
+}
+
+header ul li {
+  list-style: none;
+  margin: 0 20px;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: #e4e4e4;
+  transition: all .6s ease;
+}
+
+header ul li a:hover {
+  opacity: .8;
+  text-shadow: 1px 1px 3px #fff;
+}
+
+.izumi_mv {
+  background-image: url(../image/izumi_mv.JPG);
+  padding: 140px 0 100px 0;
+  background-size: cover;
+  background-position: bottom;
+  height: 400px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  position: relative;
+  z-index: 1;
+}
+
+.izumi_mv::after {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(30, 124, 85, 0.4);
+}
+
+.izumi_mv .mv_wrapper {
+  width: 90%;
+  padding: 0 20px;
+  z-index: 5;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.izumi_mv .mv_wrapper h2 {
+  color: white;
+  font-size: 28px;
+  text-shadow: 1px 1px 4px #000;
+}
+
+.izumi_mv .mv_wrapper p {
+  font-size: 20px;
+  color: white;
+  text-shadow: 1px 1px 2px #000;
+}
+
+.izumi_contents {
+  width: 100%;
+  margin-top: 100px;
+  padding-top: 50px;
+}
+
+.izumi_contents .container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.izumi_contents .container .izumibashi {
+  padding: 0 20px;
+  margin: 20px auto 50px;
+}
+
+.izumi_contents .container .izumibashi h2 {
+  text-align: center;
+}
+
+.izumi_contents .container .izumibashi .content {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+.izumi_contents .container .izumibashi .content:nth-of-type(even) {
+  flex-direction: row-reverse;
+}
+
+.izumi_contents .container .izumibashi .content .image {
+  width: 40%;
+}
+
+.izumi_contents .container .izumibashi .content .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.izumi_contents .container .izumibashi .content .text {
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+
+.izumi_contents .container .izumi_mori {
+  padding: 0 20px;
+  margin: 20px auto 50px;
+}
+
+.izumi_contents .container .izumi_mori h2 {
+  text-align: center;
+}
+
+.izumi_contents .container .izumi_mori .content {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+.izumi_contents .container .izumi_mori .content:nth-of-type(even) {
+  flex-direction: row-reverse;
+}
+
+.izumi_contents .container .izumi_mori .content .image {
+  width: 40%;
+}
+
+.izumi_contents .container .izumi_mori .content .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.izumi_contents .container .izumi_mori .content .text {
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+
+.izumi_contents .container .shimonoike {
+  padding: 0 20px;
+  margin: 20px auto 50px;
+}
+
+.izumi_contents .container .shimonoike h2 {
+  text-align: center;
+}
+
+.izumi_contents .container .shimonoike .content {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+.izumi_contents .container .shimonoike .content:nth-of-type(even) {
+  flex-direction: row-reverse;
+}
+
+.izumi_contents .container .shimonoike .content .image {
+  width: 40%;
+}
+
+.izumi_contents .container .shimonoike .content .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.izumi_contents .container .shimonoike .content .text {
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
